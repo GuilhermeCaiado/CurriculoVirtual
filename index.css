@@ -6,7 +6,8 @@ header {
     display: flex;
     width: 100%;
     justify-content: space-around;
-
+    position: fixed;
+    background-color: rgb(34, 43, 43);
 }
 header ul{
     display: flex;
@@ -34,8 +35,7 @@ header ul{
 }
 .one img {
     border-radius: 5%;
-    width: 35rem;
-    height: 22rem;
+    width: 70%;
     max-width: 350px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,16 +46,37 @@ header ul{
 .two {
     width: 100%;
     text-align: justify; 
-    
+    gap: 3rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding-top: 60px;
+   
+}
+.two > div {
+    justify-content: left;
+    padding-top: 100px;
+    padding-bottom: 100px;   
+}
+.two-0{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-right: 60px;
 }
-.two > div {
-    padding-left: 300px;
-    padding-right: 300px;
+.two-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
 }
+
+.two img {
+    width: 50%;
+}
+
 .three {
     display: flex;
     flex-direction: row;
