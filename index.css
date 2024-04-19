@@ -1,13 +1,13 @@
-body {background-color: rgb(34, 43, 43);}
+body {background-color: #0D0D0D;}
 
-*{color: #dedad7; font-family:"Montserrat", sans-serif; ;}
+*{color: #F2F2F2; font-family:"Montserrat", sans-serif; ;}
  
 header {
     display: flex;
     width: 100%;
     justify-content: space-around;
     position: fixed;
-    background-color: rgb(34, 43, 43);
+    background-color: #1E2D40;
 }
 header ul{
     display: flex;
@@ -26,7 +26,7 @@ header ul{
     padding-bottom: 270px;
 } 
 .one-1 span {
-    color: #72939c;
+    color:#747F8C;
     max-width: bold;
     }
 .one-2{
@@ -51,6 +51,7 @@ header ul{
     justify-content: space-around;
     flex-direction: row-reverse;
     padding-top: 60px;
+    background-color: #0B1426 ;
    
 }
 .two > div {
@@ -77,26 +78,26 @@ header ul{
     width: 50%;
 }
 
-.three {
+.four {
     display: flex;
     flex-direction: row;
-
+    background-color: #1E2D40;
 }
 
-.three-p1 {
+.four-p1 {
     width: 50%;
     display: flex;
     flex-direction: column;
    
 }
-.three-p2 {
+.four-p2 {
     width: 50%;
     display: flex;
     flex-direction: column;
    
 }
 
-.three-p2 img {
+.four-p2 img {
     border-radius: 5px;
 }
 
