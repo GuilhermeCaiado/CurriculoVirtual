@@ -27,19 +27,20 @@ header ul{
 } 
 
 .one-1 h2 {
-    font-size: 16px;
+    font-size: 25px;
     max-width: bold;
     margin: 3px;
     text-align: left;
 }
 
 .one-1 h1 {
-    font-size: 30px;
+    font-size: 49px;
     margin: 0;
 }
 
 .one-1 p {
     margin: 3px;
+    text-align: left;
 }
 
 .one-1 span {
@@ -125,32 +126,23 @@ header ul{
     padding-bottom: 70px;
 }
 
+.three-2 {
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 150px;
+    background-color: #0B1426;
+}
+
 
 .four {
-    display: flex;
-    flex-direction: row;
-    background-color: #1E2D40;
+   background-color: #1E2D40;
+   text-align: center;
+    padding-top: 30px;
 }
-
-.four-p1 {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-   
-}
-.four-p2 {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-   
-}
-
-.four-p2 img {
-    border-radius: 5px;
-}
-
 
 .form-contato {
     display: flex;
     flex-direction: column;
 }
+
